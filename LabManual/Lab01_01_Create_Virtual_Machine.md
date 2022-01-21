@@ -124,7 +124,7 @@ lab:
 
 ### タスク 2 - 仮想マシンに「RDP 接続」でアクセスする
 
-注：Bastion 接続を行う場合は、[Lab01-02_Access_Virtual_Machine_Bastion](https://github.com/ctct-edu/az-900-lab-1day/blob/main/LabManual/Lab01-02_Access_Virtual_Machine_Bastion.md)へアクセスして実施してください。
+注：Bastion 接続を行う場合は、[Lab01-02_Access_Virtual_Machine_Bastion](https://github.com/ctct-edu/az-900-lab-1day/blob/main/LabManual/Lab01_02_Access_Virtual_Machine_Bastion.md)へアクセスして実施してください。
 
 1. 仮想マシンブレードで「**接続**」を選択し「**RDP**」を選択します。
 
