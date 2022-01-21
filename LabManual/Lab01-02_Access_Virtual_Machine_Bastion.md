@@ -1,7 +1,7 @@
 ---
 lab:
     title: 'Lab1 仮想マシンを作成する	'
-    learning path: '01'
+    learning path: '02'
     module: 'Module2 Azureのコアサービス'
 ---
 
