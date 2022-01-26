@@ -28,19 +28,19 @@ lab:
 
      > 注：##は受講番号です。01 ～ 99の数字が入ります。
 
-     ![AZ900_Lab1_01](C:\Users\Administrator\Documents\GitHub\az-900-lab-1day\LabManual\media\AZ900_Lab1_01.BMP)
+     ![AZ900_Lab1_01](C:\Users\Administrator\Documents\GitHub\az-900-lab-1day\LabManual\media\AZ900_Lab1_01.jpg)
 
      
 
 2. ポータルメニューの検索バーに［Virtual Machine］と入力して検索結果を選択します。
 
-     ![AZ900_Lab1_02](C:\Users\Administrator\Documents\GitHub\az-900-lab-1day\LabManual\media\AZ900_Lab1_02.BMP)
+     ![AZ900_Lab1_02](C:\Users\Administrator\Documents\GitHub\az-900-lab-1day\LabManual\media\AZ900_Lab1_02.jpg)
 
      
 
 3. 画面左上にある[**＋作成**]→「**＋仮想マシン**」を選択します。
 
-     ![AZ900_Lab1_03](C:\Users\Administrator\Documents\GitHub\az-900-lab-1day\LabManual\media\AZ900_Lab1_03.BMP)
+     ![AZ900_Lab1_03](C:\Users\Administrator\Documents\GitHub\az-900-lab-1day\LabManual\media\AZ900_Lab1_03.jpg)
 
      
 
@@ -55,7 +55,7 @@ lab:
      >
      > 注：リソースグループがない場合は、「新規作成」を選択し、作成します。
 
-     ![AZ900_Lab1_04](C:\Users\Administrator\Documents\GitHub\az-900-lab-1day\LabManual\media\AZ900_Lab1_04.BMP)
+     ![AZ900_Lab1_04](C:\Users\Administrator\Documents\GitHub\az-900-lab-1day\LabManual\media\AZ900_Lab1_04.jpg)
 
      
 
@@ -76,7 +76,7 @@ lab:
 
      
 
-     ![AZ900_Lab1_05](C:\Users\Administrator\Documents\GitHub\az-900-lab-1day\LabManual\media\AZ900_Lab1_05.BMP)
+     ![AZ900_Lab1_05](C:\Users\Administrator\Documents\GitHub\az-900-lab-1day\LabManual\media\AZ900_Lab1_05.jpg)
 
      
 
@@ -87,7 +87,7 @@ lab:
      | ユーザー名 | student      |
      | パスワード | Pa$$w0rd1234 |
 
-     ![AZ900_Lab1_06](C:\Users\Administrator\Documents\GitHub\az-900-lab-1day\LabManual\media\AZ900_Lab1_06.BMP)
+     ![AZ900_Lab1_06](C:\Users\Administrator\Documents\GitHub\az-900-lab-1day\LabManual\media\AZ900_Lab1_06.jpg)
 
      
 
@@ -98,7 +98,7 @@ lab:
      | パブリック受信ポート | **選択したポートを許可する** |
      | 受信ポートを選択     | **HTTP(80) , RDP(2289)**     |
 
-     ![AZ900_Lab1_07](C:\Users\Administrator\Documents\GitHub\az-900-lab-1day\LabManual\media\AZ900_Lab1_07.BMP)
+     ![AZ900_Lab1_07](C:\Users\Administrator\Documents\GitHub\az-900-lab-1day\LabManual\media\AZ900_Lab1_07.jpg)
 
      
 
@@ -112,7 +112,7 @@ lab:
        | ---------------- | ---------------------------------------- |
        | OSディスクの種類 | **Standard SSD(ローカル冗長ストレージ)** |
 
-     ![AZ900_Lab1_08](C:\Users\Administrator\Documents\GitHub\az-900-lab-1day\LabManual\media\AZ900_Lab1_08.BMP)
+     ![AZ900_Lab1_08](C:\Users\Administrator\Documents\GitHub\az-900-lab-1day\LabManual\media\AZ900_Lab1_08.jpg)
 
      
 
@@ -122,7 +122,7 @@ lab:
 
 11. 「**ネットワークインターフェイス**」の [**仮想ネットワーク**]の項目で「**新規作成**」を選択します。
 
-      ![AZ900_Lab1_09](C:\Users\Administrator\Documents\GitHub\az-900-lab-1day\LabManual\media\AZ900_Lab1_09.BMP)
+      ![AZ900_Lab1_09](C:\Users\Administrator\Documents\GitHub\az-900-lab-1day\LabManual\media\AZ900_Lab1_09.jpg)
 
       
 
@@ -134,18 +134,18 @@ lab:
         | IPv4 アドレス空間 | **10.#.0.0/16** |
         | サブネット名      | **Subnet01**    |
         | アドレス範囲      | **10.#.1.0/24** |
-
+    
         > 注：##は受講番号です。01 ～ 99の数字が入ります。
         >
         > 注：#は受講番号です。01～09の人は"0"を抜かしてください。1 ～99の数字が入ります。
-
-        ![AZ900_Lab1_10](C:\Users\Administrator\Documents\GitHub\az-900-lab-1day\LabManual\media\AZ900_Lab1_10.BMP)
+    
+        ![AZ900_Lab1_10](C:\Users\Administrator\Documents\GitHub\az-900-lab-1day\LabManual\media\AZ900_Lab1_10.jpg)
 
       
 
 13. 項番 13 で設定した「仮想ネットワーク」と「サブネット」に変更されたことを確認します。
 
-      ![AZ900_Lab1_11](C:\Users\Administrator\Documents\GitHub\az-900-lab-1day\LabManual\media\AZ900_Lab1_11.BMP)
+      ![AZ900_Lab1_11](C:\Users\Administrator\Documents\GitHub\az-900-lab-1day\LabManual\media\AZ900_Lab1_11.jpg)
 
       
 
@@ -155,19 +155,19 @@ lab:
 
 15. 「検証に成功しました」と表示されたら、画面左下部の「**作成**」を選択します。
 
-      ![AZ900_Lab1_12](C:\Users\Administrator\Documents\GitHub\az-900-lab-1day\LabManual\media\AZ900_Lab1_12.BMP)
+      ![AZ900_Lab1_12](C:\Users\Administrator\Documents\GitHub\az-900-lab-1day\LabManual\media\AZ900_Lab1_12.jpg)
 
       
 
 16. .2~5 分ほどで仮想マシンの作成が完了となります。
 
-      ![AZ900_Lab1_13](C:\Users\Administrator\Documents\GitHub\az-900-lab-1day\LabManual\media\AZ900_Lab1_13.BMP)
+      ![AZ900_Lab1_13](C:\Users\Administrator\Documents\GitHub\az-900-lab-1day\LabManual\media\AZ900_Lab1_13.jpg)
 
       
 
 19. デプロイ完了後、「リソースに移動」を選択してください。
 
-    ![AZ900_Lab1_14](C:\Users\Administrator\Documents\GitHub\az-900-lab-1day\LabManual\media\AZ900_Lab1_14.BMP)
+    ![AZ900_Lab1_14](C:\Users\Administrator\Documents\GitHub\az-900-lab-1day\LabManual\media\AZ900_Lab1_14.jpg)
     
     
     
@@ -175,7 +175,7 @@ lab:
 
       > 注：パブリックIPアドレスはWebページの閲覧時に使用します。
 
-![AZ900_Lab1_15](C:\Users\Administrator\Documents\GitHub\az-900-lab-1day\LabManual\media\AZ900_Lab1_15.BMP)
+![AZ900_Lab1_15](C:\Users\Administrator\Documents\GitHub\az-900-lab-1day\LabManual\media\AZ900_Lab1_15.jpg)
 
 
 
@@ -185,13 +185,13 @@ lab:
 
 1. 仮想マシンブレードで「**接続**」を選択し「**RDP**」を選択します。
 
-   ![AZ900_Lab1_16](C:\Users\Administrator\Documents\GitHub\az-900-lab-1day\LabManual\media\AZ900_Lab1_16.BMP)
+   ![AZ900_Lab1_16](C:\Users\Administrator\Documents\GitHub\az-900-lab-1day\LabManual\media\AZ900_Lab1_16.jpg)
 
    
 
 2. 画面中央にある「**RDP ファイルのダウンロード**」をクリックしてください。
 
-   ![AZ900_Lab1_17](C:\Users\Administrator\Documents\GitHub\az-900-lab-1day\LabManual\media\AZ900_Lab1_17.BMP)
+   ![AZ900_Lab1_17](C:\Users\Administrator\Documents\GitHub\az-900-lab-1day\LabManual\media\AZ900_Lab1_17.jpg)
 
    
 
@@ -202,7 +202,7 @@ lab:
    | ユーザー名 | student      |
    | パスワード | Pa$$w.rd1234 |
 
-   ![AZ900_Lab1_18](C:\Users\Administrator\Documents\GitHub\az-900-lab-1day\LabManual\media\AZ900_Lab1_18.BMP)
+   ![AZ900_Lab1_18](C:\Users\Administrator\Documents\GitHub\az-900-lab-1day\LabManual\media\AZ900_Lab1_18.jpg)
 
    
 
@@ -210,7 +210,7 @@ lab:
 
    > 注：この設定は演習には影響しません。
 
-   ![AZ900_Lab1_19](C:\Users\Administrator\Documents\GitHub\az-900-lab-1day\LabManual\media\AZ900_Lab1_19.BMP)
+   ![AZ900_Lab1_19](C:\Users\Administrator\Documents\GitHub\az-900-lab-1day\LabManual\media\AZ900_Lab1_19.jpg)
 
    
 
@@ -222,7 +222,7 @@ lab:
 
 1. スタートメニューから「**Powershell**」を起動します。
 
-   ![AZ900_Lab1_20](C:\Users\Administrator\Documents\GitHub\az-900-lab-1day\LabManual\media\AZ900_Lab1_20.BMP)
+   ![AZ900_Lab1_20](C:\Users\Administrator\Documents\GitHub\az-900-lab-1day\LabManual\media\AZ900_Lab1_20.jpg)
 
    
 
@@ -234,19 +234,19 @@ lab:
 
    > 注：これはIIS をインストールするコマンドです。
 
-   ![AZ900_Lab1_21](C:\Users\Administrator\Documents\GitHub\az-900-lab-1day\LabManual\media\AZ900_Lab1_21.BMP)
+   ![AZ900_Lab1_21](C:\Users\Administrator\Documents\GitHub\az-900-lab-1day\LabManual\media\AZ900_Lab1_21.jpg)
 
    
 
 3. IS のインストールが開始されます。100%になるまで待ちます。
 
-   ![AZ900_Lab1_22](C:\Users\Administrator\Documents\GitHub\az-900-lab-1day\LabManual\media\AZ900_Lab1_22.BMP)
+   ![AZ900_Lab1_22](C:\Users\Administrator\Documents\GitHub\az-900-lab-1day\LabManual\media\AZ900_Lab1_22.jpg)
 
    
 
 4. . IIS のインストールが完了し Exit Code が「**Success**」になったことを確認してください。
 
-   ![AZ900_Lab1_23](C:\Users\Administrator\Documents\GitHub\az-900-lab-1day\LabManual\media\AZ900_Lab1_23.BMP)
+   ![AZ900_Lab1_23](C:\Users\Administrator\Documents\GitHub\az-900-lab-1day\LabManual\media\AZ900_Lab1_23.jpg)
 
    
 
@@ -268,13 +268,13 @@ lab:
    >
    > 注：例としては http://11.22.33.44 などになります。
 
-   ![AZ900_Lab1_24](C:\Users\Administrator\Documents\GitHub\az-900-lab-1day\LabManual\media\AZ900_Lab1_24.BMP)
+   ![AZ900_Lab1_24](C:\Users\Administrator\Documents\GitHub\az-900-lab-1day\LabManual\media\AZ900_Lab1_24.jpg)
 
    
 
 3. IIS のサンプルページが表示されます。
 
-   ![AZ900_Lab1_25](C:\Users\Administrator\Documents\GitHub\az-900-lab-1day\LabManual\media\AZ900_Lab1_25.BMP)
+   ![AZ900_Lab1_25](C:\Users\Administrator\Documents\GitHub\az-900-lab-1day\LabManual\media\AZ900_Lab1_25.jpg)
 
 
 
