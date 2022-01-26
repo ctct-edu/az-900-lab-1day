@@ -13,21 +13,37 @@ lab:
 
 1. 仮想マシンブレードで「**接続**」を選択し「**Bastion**」を選択します。
 
-2. 画面中央にある「**Bastion を使用する**」を選択します。
+    ![AZ900_Lab1_Bastion_01](C:\Users\Administrator\Documents\GitHub\az-900-lab-1day\LabManual\media\AZ900_Lab1_Bastion_01.BMP)
 
-3. 手順 2 では何も変更せずに「**サブネットの作成**」を選択します。
+    
+
+2. 手順 2 では何も変更せずに「**サブネットの作成**」を選択します。
+
+    ![AZ900_Lab1_Bastion_02](C:\Users\Administrator\Documents\GitHub\az-900-lab-1day\LabManual\media\AZ900_Lab1_Bastion_02.BMP)
+
+    
 
 3. 手順 3 では何も変更せずに「**規定値を使用して Azure Bastion を作成する**」を選択します。
+
+    ![AZ900_Lab1_Bastion_03](C:\Users\Administrator\Documents\GitHub\az-900-lab-1day\LabManual\media\AZ900_Lab1_Bastion_03.BMP)
+
+    
 
 3. 画面右上の通知ボタンから「新しい Bastion の作成中」と表示されます。作成まで約 10 分待ちます。
 
     > 注：並行して「演習2_App Serviceの作成」を実施することを推奨します。(演習②は約 10 分の演習です)
     
-3. 作成完了の通知を確認し、もう一度 Bastion の画面に移動します。
+    ![AZ900_Lab1_Bastion_04](C:\Users\Administrator\Documents\GitHub\az-900-lab-1day\LabManual\media\AZ900_Lab1_Bastion_04.BMP)
+    
+    
+    
+5. 作成完了の通知を確認し、もう一度 Bastion の画面に移動します。
 
-3. 「**Bastion を使用する**」を選択します。
+    ![AZ900_Lab1_Bastion_05](C:\Users\Administrator\Documents\GitHub\az-900-lab-1day\LabManual\media\AZ900_Lab1_Bastion_05.BMP)
 
-8. ユーザー名とパスワードを入力し、「接続」を選択します。
+    
+
+6. ユーザー名とパスワードを入力し、「接続」を選択します。
 
     | 設定       | 値               |
     | ---------- | ---------------- |
@@ -38,17 +54,31 @@ lab:
     >
     > 　　ポップアップブロックを許可し、再度「接続」を選択するか、チェックを外してください。
 
+    ![AZ900_Lab1_Bastion_06](C:\Users\Administrator\Documents\GitHub\az-900-lab-1day\LabManual\media\AZ900_Lab1_Bastion_06.BMP)
+
     
 
-9. 「Bastion.azure.com が次の許可を求めています」と表示されますので、「許可」を選択してください。 
+7. 「Bastion.azure.com が次の許可を求めています」と表示されますので、「許可」を選択してください。 
 
     > 注：Web ブラウザーに対してのクリップボード許可を設定しています。
 
-5. . Web ブラウザーで Windows Server の画面が表示されます。
+    ![AZ900_Lab1_Bastion_07](C:\Users\Administrator\Documents\GitHub\az-900-lab-1day\LabManual\media\AZ900_Lab1_Bastion_07.BMP)
 
-5. 初期設定で以下の項目が表示されます。「YES」を選択します。
+    
+
+8. Web ブラウザーで Windows Server の画面が表示されます。
+
+    ![AZ900_Lab1_Bastion_08](C:\Users\Administrator\Documents\GitHub\az-900-lab-1day\LabManual\media\AZ900_Lab1_Bastion_08.BMP)
+
+    
+
+9. Windows Server のデスクトップ画面が表示されます。初期設定で以下の項目が表示されます。「YES」を選択します。
 
     > 注：この設定は演習には影響しません。
+
+    ![AZ900_Lab1_19](C:\Users\Administrator\Documents\GitHub\az-900-lab-1day\LabManual\media\AZ900_Lab1_19.BMP)
+
+    
 
 6. Server Manager が自動で起動しますが、全て「×」で閉じます。
 
@@ -58,19 +88,35 @@ lab:
 
 1. スタートメニューから「**Powershell**」を起動します。
 
+   ![AZ900_Lab1_20](C:\Users\Administrator\Documents\GitHub\az-900-lab-1day\LabManual\media\AZ900_Lab1_20.BMP)
+
+   
+
 2. 起動した Powershell で以下のコマンドを実行してください。
 
-     ```powershell
-     Install-WindowsFeature -name Web-Server -IncludeManagementTools
-     ```
+   ```powershell
+   Install-WindowsFeature -name Web-Server -IncludeManagementTools
+   ```
 
-     > 注：これはIIS をインストールするコマンドです。
+   > 注：これはIIS をインストールするコマンドです。
 
-3. IIS のインストールが開始されます。100%になるまで待ちます。
+   ![AZ900_Lab1_21](C:\Users\Administrator\Documents\GitHub\az-900-lab-1day\LabManual\media\AZ900_Lab1_21.BMP)
+
+   
+
+3. IS のインストールが開始されます。100%になるまで待ちます。
+
+   ![AZ900_Lab1_22](C:\Users\Administrator\Documents\GitHub\az-900-lab-1day\LabManual\media\AZ900_Lab1_22.BMP)
+
+   
 
 4. . IIS のインストールが完了し Exit Code が「**Success**」になったことを確認してください。
 
-5. リモートデスクトップ画面を最小化してください。
+   ![AZ900_Lab1_23](C:\Users\Administrator\Documents\GitHub\az-900-lab-1day\LabManual\media\AZ900_Lab1_23.BMP)
+
+   
+
+5. Web画面を最小化してください。
 
      
 
@@ -78,20 +124,26 @@ lab:
 
 1. . Web ブラウザーを起動してください。
 
-     > 注：ブラウザーはどれでも可能です
+   > 注：ブラウザーはどれでも可能です
+
+   
 
 2. アドレスバーに「**http://仮想マシンのパブリック IP アドレス**」を入力してください。
 
-    > 注：タスク2-19でメモしたパブリックIPアドレスです。
-    >
-    > 注：例としては http://11.22.33.44 などになります。
+   > 注：タスク2-19でメモしたパブリックIPアドレスです。
+   >
+   > 注：例としては http://11.22.33.44 などになります。
 
-3.  IIS のサンプルページが表示されます。
+   ![AZ900_Lab1_24](C:\Users\Administrator\Documents\GitHub\az-900-lab-1day\LabManual\media\AZ900_Lab1_24.BMP)
+
+   
+
+3. IIS のサンプルページが表示されます。
+
+   ![AZ900_Lab1_25](C:\Users\Administrator\Documents\GitHub\az-900-lab-1day\LabManual\media\AZ900_Lab1_25.BMP)
 
 
 
 これで仮想マシンの構築とIISを構築し、Webサーバーを公開することができました。
-
-
 
 演習は終了です。お疲れ様でした。

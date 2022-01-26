@@ -28,11 +28,21 @@ lab:
 
      > 注：##は受講番号です。01 ～ 99の数字が入ります。
 
+     ![AZ900_Lab1_01](C:\Users\Administrator\Documents\GitHub\az-900-lab-1day\LabManual\media\AZ900_Lab1_01.BMP)
+
      
 
 2. ポータルメニューの検索バーに［Virtual Machine］と入力して検索結果を選択します。
 
-2. 画面左上にある[**＋作成**]→「**＋仮想マシン**」を選択します。
+     ![AZ900_Lab1_02](C:\Users\Administrator\Documents\GitHub\az-900-lab-1day\LabManual\media\AZ900_Lab1_02.BMP)
+
+     
+
+3. 画面左上にある[**＋作成**]→「**＋仮想マシン**」を選択します。
+
+     ![AZ900_Lab1_03](C:\Users\Administrator\Documents\GitHub\az-900-lab-1day\LabManual\media\AZ900_Lab1_03.BMP)
+
+     
 
 4. 仮想マシンの作成画面が表示されます。「**プロジェクトの詳細**」を入力します。
 
@@ -45,6 +55,8 @@ lab:
      >
      > 注：リソースグループがない場合は、「新規作成」を選択し、作成します。
 
+     ![AZ900_Lab1_04](C:\Users\Administrator\Documents\GitHub\az-900-lab-1day\LabManual\media\AZ900_Lab1_04.BMP)
+
      
 
 5. 「**インスタンスの詳細**」を入力します。
@@ -54,71 +66,116 @@ lab:
      | 仮想マシン名 | **Server##-1** |
      | 地域| **講師から指定されたリージョン** |
      | 可用性オプション | **インフラストラクチャ冗長は必要ありません** |
-     | イメージ | **Windows Server 2019 Datacenter** |
+     | イメージ | **Windows Server 2019 Datacenter - Gen2** |
      | Azure スポット インスタンス | **チェックなし** |
+     | サイズ | **Standard_DS1_V2** |
 
-6. サイズの項目で「**すべてのサイズを表示**」を選択します。
+     > 注：サイズが見つからない場合は、「すべてのサイズを表示」から検索してください。
+     >
+     > 　　または1コアのCPUであれば、別のシリーズを選択しても構いません。
 
-7. 検索バーに「**DS1_v2**」と入力し、表示された DS1_v2 を選択し、「選択」を押します。
+     
 
-     > 注：検索しても出てこない場合は[vCPU 数]が「1」であれば、どのシリーズを選んでも構いません。
+     ![AZ900_Lab1_05](C:\Users\Administrator\Documents\GitHub\az-900-lab-1day\LabManual\media\AZ900_Lab1_05.BMP)
 
-8. 「**管理者アカウント**」を入力します。
+     
+
+6. 「**管理者アカウント**」を入力します。
 
      | 設定       | 値           |
      | ---------- | ------------ |
      | ユーザー名 | student      |
      | パスワード | Pa$$w0rd1234 |
 
+     ![AZ900_Lab1_06](C:\Users\Administrator\Documents\GitHub\az-900-lab-1day\LabManual\media\AZ900_Lab1_06.BMP)
+
      
 
-9. 「**受信ポートの規則**」を入力します。
+7. 「**受信ポートの規則**」を入力します。
 
      | 設定                 | 値                           |
      | -------------------- | ---------------------------- |
      | パブリック受信ポート | **選択したポートを許可する** |
      | 受信ポートを選択     | **HTTP(80) , RDP(2289)**     |
 
+     ![AZ900_Lab1_07](C:\Users\Administrator\Documents\GitHub\az-900-lab-1day\LabManual\media\AZ900_Lab1_07.BMP)
+
      
 
-10. ライセンス項目は変更せず、「**次：ディスク**」を選択します。
+8. ライセンス項目は変更せず、「**次：ディスク**」を選択します。
 
-11. 「ディスクのオプション」で以下の選択してください。指定した箇所以外は変更しません。
+     
 
-      | 設定             | 値                                       |
-      | ---------------- | ---------------------------------------- |
-      | OSディスクの種類 | **Standard SSD(ローカル冗長ストレージ)** |
+9. 「ディスクのオプション」で以下の選択してください。指定した箇所以外は変更しません。
 
-12. 「**次：ネットワーク**」をクリックしてください。
+       | 設定             | 値                                       |
+       | ---------------- | ---------------------------------------- |
+       | OSディスクの種類 | **Standard SSD(ローカル冗長ストレージ)** |
 
-13. 「**ネットワークインターフェイス**」の [**仮想ネットワーク**]の項目で「**新規作成**」を選択します。
+     ![AZ900_Lab1_08](C:\Users\Administrator\Documents\GitHub\az-900-lab-1day\LabManual\media\AZ900_Lab1_08.BMP)
 
-14. 「**仮想ネットワークの作成**」で以下の項目を入力し、「**OK**」を押します。
+     
 
-      | 設定              | 値              |
-      | ----------------- | --------------- |
-      | 名前              | **Vnet##**      |
-      | IPv4 アドレス空間 | **10.#.0.0/16** |
-      | サブネット名      | **Subnet01**    |
-      | アドレス範囲      | **10.#.1.0/24** |
+10. 「**次：ネットワーク**」をクリックしてください。
 
-      > 注：##は受講番号です。01 ～ 99の数字が入ります。
-      >
-      > 注：#は受講番号です。01～09の人は"0"を抜かしてください。1 ～99の数字が入ります。
+     
+
+11. 「**ネットワークインターフェイス**」の [**仮想ネットワーク**]の項目で「**新規作成**」を選択します。
+
+      ![AZ900_Lab1_09](C:\Users\Administrator\Documents\GitHub\az-900-lab-1day\LabManual\media\AZ900_Lab1_09.BMP)
 
       
 
-15. 項番 13 で設定した「仮想ネットワーク」と「サブネット」に変更されたことを確認します。
+12. 「**仮想ネットワークの作成**」で以下の項目を入力し、「**OK**」を押します。
 
-16. 以降の設定はデフォルトのまま、「**確認および作成**」を選択します。
+        | 設定              | 値              |
+        | ----------------- | --------------- |
+        | 名前              | **Vnet##**      |
+        | IPv4 アドレス空間 | **10.#.0.0/16** |
+        | サブネット名      | **Subnet01**    |
+        | アドレス範囲      | **10.#.1.0/24** |
 
-17. 「検証に成功しました」と表示されたら、画面左下部の「**作成**」を選択します。
+        > 注：##は受講番号です。01 ～ 99の数字が入ります。
+        >
+        > 注：#は受講番号です。01～09の人は"0"を抜かしてください。1 ～99の数字が入ります。
 
-18. .2~5 分ほどで仮想マシンの作成が完了となります。デプロイ完了後、「リソースに移動」を選択してください。
+        ![AZ900_Lab1_10](C:\Users\Administrator\Documents\GitHub\az-900-lab-1day\LabManual\media\AZ900_Lab1_10.BMP)
 
+      
+
+13. 項番 13 で設定した「仮想ネットワーク」と「サブネット」に変更されたことを確認します。
+
+      ![AZ900_Lab1_11](C:\Users\Administrator\Documents\GitHub\az-900-lab-1day\LabManual\media\AZ900_Lab1_11.BMP)
+
+      
+
+14. 以降の設定はデフォルトのまま、「**確認および作成**」を選択します。
+
+      
+
+15. 「検証に成功しました」と表示されたら、画面左下部の「**作成**」を選択します。
+
+      ![AZ900_Lab1_12](C:\Users\Administrator\Documents\GitHub\az-900-lab-1day\LabManual\media\AZ900_Lab1_12.BMP)
+
+      
+
+16. .2~5 分ほどで仮想マシンの作成が完了となります。
+
+      ![AZ900_Lab1_13](C:\Users\Administrator\Documents\GitHub\az-900-lab-1day\LabManual\media\AZ900_Lab1_13.BMP)
+
+      
+
+19. デプロイ完了後、「リソースに移動」を選択してください。
+
+    ![AZ900_Lab1_14](C:\Users\Administrator\Documents\GitHub\az-900-lab-1day\LabManual\media\AZ900_Lab1_14.BMP)
+    
+    
+    
 19. 作成した仮想マシンブレードが表示されます。 画面内にある「パブリック IP アドレス」をコピーしてメモ帳に控えてください。 
 
       > 注：パブリックIPアドレスはWebページの閲覧時に使用します。
+
+![AZ900_Lab1_15](C:\Users\Administrator\Documents\GitHub\az-900-lab-1day\LabManual\media\AZ900_Lab1_15.BMP)
 
 
 
@@ -128,7 +185,15 @@ lab:
 
 1. 仮想マシンブレードで「**接続**」を選択し「**RDP**」を選択します。
 
+   ![AZ900_Lab1_16](C:\Users\Administrator\Documents\GitHub\az-900-lab-1day\LabManual\media\AZ900_Lab1_16.BMP)
+
+   
+
 2. 画面中央にある「**RDP ファイルのダウンロード**」をクリックしてください。
+
+   ![AZ900_Lab1_17](C:\Users\Administrator\Documents\GitHub\az-900-lab-1day\LabManual\media\AZ900_Lab1_17.BMP)
+
+   
 
 3. ダウンロードした RDP ファイルをクリックし、Windows 認証を行いサインインしてください。
 
@@ -137,13 +202,17 @@ lab:
    | ユーザー名 | student      |
    | パスワード | Pa$$w.rd1234 |
 
+   ![AZ900_Lab1_18](C:\Users\Administrator\Documents\GitHub\az-900-lab-1day\LabManual\media\AZ900_Lab1_18.BMP)
+
    
 
-4. Windows Server のデスクトップ画面が表示されます。
-
-5. 初期設定で以下の項目が表示されます。「YES」を選択します。
+4. Windows Server のデスクトップ画面が表示されます。初期設定で以下の項目が表示されます。「YES」を選択します。
 
    > 注：この設定は演習には影響しません。
+
+   ![AZ900_Lab1_19](C:\Users\Administrator\Documents\GitHub\az-900-lab-1day\LabManual\media\AZ900_Lab1_19.BMP)
+
+   
 
 6. Server Manager が自動で起動しますが、全て「×」で閉じます。
 
@@ -153,6 +222,10 @@ lab:
 
 1. スタートメニューから「**Powershell**」を起動します。
 
+   ![AZ900_Lab1_20](C:\Users\Administrator\Documents\GitHub\az-900-lab-1day\LabManual\media\AZ900_Lab1_20.BMP)
+
+   
+
 2. 起動した Powershell で以下のコマンドを実行してください。
 
    ```powershell
@@ -161,9 +234,21 @@ lab:
 
    > 注：これはIIS をインストールするコマンドです。
 
-3. IIS のインストールが開始されます。100%になるまで待ちます。
+   ![AZ900_Lab1_21](C:\Users\Administrator\Documents\GitHub\az-900-lab-1day\LabManual\media\AZ900_Lab1_21.BMP)
+
+   
+
+3. IS のインストールが開始されます。100%になるまで待ちます。
+
+   ![AZ900_Lab1_22](C:\Users\Administrator\Documents\GitHub\az-900-lab-1day\LabManual\media\AZ900_Lab1_22.BMP)
+
+   
 
 4. . IIS のインストールが完了し Exit Code が「**Success**」になったことを確認してください。
+
+   ![AZ900_Lab1_23](C:\Users\Administrator\Documents\GitHub\az-900-lab-1day\LabManual\media\AZ900_Lab1_23.BMP)
+
+   
 
 5. リモートデスクトップ画面を最小化してください。
 
@@ -175,13 +260,21 @@ lab:
 
    > 注：ブラウザーはどれでも可能です
 
+   
+
 2. アドレスバーに「**http://仮想マシンのパブリック IP アドレス**」を入力してください。
 
    > 注：タスク2-19でメモしたパブリックIPアドレスです。
    >
    > 注：例としては http://11.22.33.44 などになります。
 
+   ![AZ900_Lab1_24](C:\Users\Administrator\Documents\GitHub\az-900-lab-1day\LabManual\media\AZ900_Lab1_24.BMP)
+
+   
+
 3. IIS のサンプルページが表示されます。
+
+   ![AZ900_Lab1_25](C:\Users\Administrator\Documents\GitHub\az-900-lab-1day\LabManual\media\AZ900_Lab1_25.BMP)
 
 
 
