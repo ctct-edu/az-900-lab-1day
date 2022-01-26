@@ -28,19 +28,19 @@ lab:
 
      > 注：##は受講番号です。01 ～ 99の数字が入ります。
 
-     ![AZ900_Lab1_01](.\media\AZ900_Lab1_01.png)
+     ![AZ900_Lab1_01](./media/AZ900_Lab1_01.png)
 
      
 
 2. ポータルメニューの検索バーに［Virtual Machine］と入力して検索結果を選択します。
 
-     ![AZ900_Lab1_02](.\media\AZ900_Lab1_02.png)
+     ![AZ900_Lab1_02](./media/AZ900_Lab1_02.png)
 
      
 
 3. 画面左上にある[**＋作成**]→「**＋仮想マシン**」を選択します。
 
-     ![AZ900_Lab1_03](.\media\AZ900_Lab1_03.png)
+     ![AZ900_Lab1_03](./media/AZ900_Lab1_03.png)
 
      
 
@@ -55,7 +55,7 @@ lab:
      >
      > 注：リソースグループがない場合は、「新規作成」を選択し、作成します。
 
-     ![AZ900_Lab1_04](.\media\AZ900_Lab1_04.png)
+     ![AZ900_Lab1_04](./media/AZ900_Lab1_04.png)
 
      
 
@@ -76,7 +76,7 @@ lab:
 
      
 
-     ![AZ900_Lab1_05](.\media\AZ900_Lab1_05.png)
+     ![AZ900_Lab1_05](./media/AZ900_Lab1_05.png)
 
      
 
@@ -87,7 +87,7 @@ lab:
      | ユーザー名 | student      |
      | パスワード | Pa$$w0rd1234 |
 
-     ![AZ900_Lab1_06](.\media\AZ900_Lab1_06.png)
+     ![AZ900_Lab1_06](./media/AZ900_Lab1_06.png)
 
      
 
@@ -98,7 +98,7 @@ lab:
      | パブリック受信ポート | **選択したポートを許可する** |
      | 受信ポートを選択     | **HTTP(80) , RDP(2289)**     |
 
-     ![AZ900_Lab1_07](.\media\AZ900_Lab1_07.png)
+     ![AZ900_Lab1_07](./media/AZ900_Lab1_07.png)
 
      
 
@@ -112,7 +112,7 @@ lab:
        | ---------------- | ---------------------------------------- |
        | OSディスクの種類 | **Standard SSD(ローカル冗長ストレージ)** |
 
-     ![AZ900_Lab1_08](.\media\AZ900_Lab1_08.png)
+     ![AZ900_Lab1_08](./media/AZ900_Lab1_08.png)
 
      
 
@@ -122,7 +122,7 @@ lab:
 
 11. 「**ネットワークインターフェイス**」の [**仮想ネットワーク**]の項目で「**新規作成**」を選択します。
 
-      ![AZ900_Lab1_09](.\media\AZ900_Lab1_09.png)
+      ![AZ900_Lab1_09](./media/AZ900_Lab1_09.png)
 
       
 
@@ -139,13 +139,13 @@ lab:
         >
         > 注：#は受講番号です。01～09の人は"0"を抜かしてください。1 ～99の数字が入ります。
         
-        ![AZ900_Lab1_10](.\media\AZ900_Lab1_10.png)
+        ![AZ900_Lab1_10](./media/AZ900_Lab1_10.png)
 
       
 
 13. 項番 13 で設定した「仮想ネットワーク」と「サブネット」に変更されたことを確認します。
 
-      ![AZ900_Lab1_11](.\media\AZ900_Lab1_11.png)
+      ![AZ900_Lab1_11](./media/AZ900_Lab1_11.png)
 
       
 
@@ -155,19 +155,19 @@ lab:
 
 15. 「検証に成功しました」と表示されたら、画面左下部の「**作成**」を選択します。
 
-      ![AZ900_Lab1_12](.\media\AZ900_Lab1_12.png)
+      ![AZ900_Lab1_12](./media/AZ900_Lab1_12.png)
 
       
 
 16. .2~5 分ほどで仮想マシンの作成が完了となります。
 
-      ![AZ900_Lab1_13](.\media\AZ900_Lab1_13.png)
+      ![AZ900_Lab1_13](./media/AZ900_Lab1_13.png)
 
       
 
 19. デプロイ完了後、「リソースに移動」を選択してください。
 
-    ![AZ900_Lab1_14](.\media\AZ900_Lab1_14.png)
+    ![AZ900_Lab1_14](./media/AZ900_Lab1_14.png)
     
     
     
@@ -175,7 +175,7 @@ lab:
 
       > 注：パブリックIPアドレスはWebページの閲覧時に使用します。
 
-![AZ900_Lab1_15](.\media\AZ900_Lab1_15.png)
+![AZ900_Lab1_15](./media/AZ900_Lab1_15.png)
 
 
 
@@ -185,13 +185,13 @@ lab:
 
 1. 仮想マシンブレードで「**接続**」を選択し「**RDP**」を選択します。
 
-   ![AZ900_Lab1_16](.\media\AZ900_Lab1_16.png)
+   ![AZ900_Lab1_16](./media/AZ900_Lab1_16.png)
 
    
 
 2. 画面中央にある「**RDP ファイルのダウンロード**」をクリックしてください。
 
-   ![AZ900_Lab1_17](.\media\AZ900_Lab1_17.png)
+   ![AZ900_Lab1_17](./media/AZ900_Lab1_17.png)
 
    
 
@@ -202,7 +202,7 @@ lab:
    | ユーザー名 | student      |
    | パスワード | Pa$$w.rd1234 |
 
-   ![AZ900_Lab1_18](.\media\AZ900_Lab1_18.png)
+   ![AZ900_Lab1_18](./media/AZ900_Lab1_18.png)
 
    
 
@@ -210,7 +210,7 @@ lab:
 
    > 注：この設定は演習には影響しません。
 
-   ![AZ900_Lab1_19](.\media\AZ900_Lab1_19.png)
+   ![AZ900_Lab1_19](./media/AZ900_Lab1_19.png)
 
    
 
@@ -222,7 +222,7 @@ lab:
 
 1. スタートメニューから「**Powershell**」を起動します。
 
-   ![AZ900_Lab1_20](.\media\AZ900_Lab1_20.png)
+   ![AZ900_Lab1_20](./media/AZ900_Lab1_20.png)
 
    
 
@@ -234,19 +234,19 @@ lab:
 
    > 注：これはIIS をインストールするコマンドです。
 
-   ![AZ900_Lab1_21](.\media\AZ900_Lab1_21.png)
+   ![AZ900_Lab1_21](./media/AZ900_Lab1_21.png)
 
    
 
 3. IS のインストールが開始されます。100%になるまで待ちます。
 
-   ![AZ900_Lab1_22](.\media\AZ900_Lab1_22.png)
+   ![AZ900_Lab1_22](./media/AZ900_Lab1_22.png)
 
    
 
 4. . IIS のインストールが完了し Exit Code が「**Success**」になったことを確認してください。
 
-   ![AZ900_Lab1_23](.\media\AZ900_Lab1_23.png)
+   ![AZ900_Lab1_23](./media/AZ900_Lab1_23.png)
 
    
 
@@ -268,13 +268,13 @@ lab:
    >
    > 注：例としては http://11.22.33.44 などになります。
 
-   ![AZ900_Lab1_24](.\media\AZ900_Lab1_24.png)
+   ![AZ900_Lab1_24](./media/AZ900_Lab1_24.png)
 
    
 
 3. IIS のサンプルページが表示されます。
 
-   ![AZ900_Lab1_25](.\media\AZ900_Lab1_25.png)
+   ![AZ900_Lab1_25](./media/AZ900_Lab1_25.png)
 
 
 
