@@ -13,19 +13,19 @@ lab:
 
 1. 仮想マシンブレードで「**接続**」を選択し「**Bastion**」を選択します。
 
-    ![AZ900_Lab1_Bastion_01](C:\Users\Administrator\Documents\GitHub\az-900-lab-1day\LabManual\media\AZ900_Lab1_Bastion_01.BMP)
+    ![AZ900_Lab1_Bastion_01](.\media\AZ900_Lab1_Bastion_01.png)
 
     
 
 2. 手順 2 では何も変更せずに「**サブネットの作成**」を選択します。
 
-    ![AZ900_Lab1_Bastion_02](C:\Users\Administrator\Documents\GitHub\az-900-lab-1day\LabManual\media\AZ900_Lab1_Bastion_02.BMP)
+    ![AZ900_Lab1_Bastion_02](.\media\AZ900_Lab1_Bastion_02.png)
 
     
 
 3. 手順 3 では何も変更せずに「**規定値を使用して Azure Bastion を作成する**」を選択します。
 
-    ![AZ900_Lab1_Bastion_03](C:\Users\Administrator\Documents\GitHub\az-900-lab-1day\LabManual\media\AZ900_Lab1_Bastion_03.BMP)
+    ![AZ900_Lab1_Bastion_03](.\media\AZ900_Lab1_Bastion_03.png)
 
     
 
@@ -33,13 +33,13 @@ lab:
 
     > 注：並行して「演習2_App Serviceの作成」を実施することを推奨します。(演習②は約 10 分の演習です)
     
-    ![AZ900_Lab1_Bastion_04](C:\Users\Administrator\Documents\GitHub\az-900-lab-1day\LabManual\media\AZ900_Lab1_Bastion_04.BMP)
+    ![AZ900_Lab1_Bastion_04](.\media\AZ900_Lab1_Bastion_04.png)
     
     
     
 5. 作成完了の通知を確認し、もう一度 Bastion の画面に移動します。
 
-    ![AZ900_Lab1_Bastion_05](C:\Users\Administrator\Documents\GitHub\az-900-lab-1day\LabManual\media\AZ900_Lab1_Bastion_05.BMP)
+    ![AZ900_Lab1_Bastion_05](.\media\AZ900_Lab1_Bastion_05.png)
 
     
 
@@ -54,7 +54,7 @@ lab:
     >
     > 　　ポップアップブロックを許可し、再度「接続」を選択するか、チェックを外してください。
 
-    ![AZ900_Lab1_Bastion_06](C:\Users\Administrator\Documents\GitHub\az-900-lab-1day\LabManual\media\AZ900_Lab1_Bastion_06.BMP)
+    ![AZ900_Lab1_Bastion_06](.\media\AZ900_Lab1_Bastion_06.png)
 
     
 
@@ -62,13 +62,13 @@ lab:
 
     > 注：Web ブラウザーに対してのクリップボード許可を設定しています。
 
-    ![AZ900_Lab1_Bastion_07](C:\Users\Administrator\Documents\GitHub\az-900-lab-1day\LabManual\media\AZ900_Lab1_Bastion_07.BMP)
+    ![AZ900_Lab1_Bastion_07](.\media\AZ900_Lab1_Bastion_07.png)
 
     
 
 8. Web ブラウザーで Windows Server の画面が表示されます。
 
-    ![AZ900_Lab1_Bastion_08](C:\Users\Administrator\Documents\GitHub\az-900-lab-1day\LabManual\media\AZ900_Lab1_Bastion_08.BMP)
+    ![AZ900_Lab1_Bastion_08](.\media\AZ900_Lab1_Bastion_08.png)
 
     
 
@@ -76,7 +76,7 @@ lab:
 
     > 注：この設定は演習には影響しません。
 
-    ![AZ900_Lab1_19](C:\Users\Administrator\Documents\GitHub\az-900-lab-1day\LabManual\media\AZ900_Lab1_19.BMP)
+    ![AZ900_Lab1_19](.\media\AZ900_Lab1_19.png)
 
     
 
@@ -88,7 +88,7 @@ lab:
 
 1. スタートメニューから「**Powershell**」を起動します。
 
-   ![AZ900_Lab1_20](C:\Users\Administrator\Documents\GitHub\az-900-lab-1day\LabManual\media\AZ900_Lab1_20.BMP)
+   ![AZ900_Lab1_20](.\media\AZ900_Lab1_20.png)
 
    
 
@@ -100,19 +100,19 @@ lab:
 
    > 注：これはIIS をインストールするコマンドです。
 
-   ![AZ900_Lab1_21](C:\Users\Administrator\Documents\GitHub\az-900-lab-1day\LabManual\media\AZ900_Lab1_21.BMP)
+   ![AZ900_Lab1_21](.\media\AZ900_Lab1_21.png)
 
    
 
 3. IS のインストールが開始されます。100%になるまで待ちます。
 
-   ![AZ900_Lab1_22](C:\Users\Administrator\Documents\GitHub\az-900-lab-1day\LabManual\media\AZ900_Lab1_22.BMP)
+   ![AZ900_Lab1_22](.\media\AZ900_Lab1_22.png)
 
    
 
 4. . IIS のインストールが完了し Exit Code が「**Success**」になったことを確認してください。
 
-   ![AZ900_Lab1_23](C:\Users\Administrator\Documents\GitHub\az-900-lab-1day\LabManual\media\AZ900_Lab1_23.BMP)
+   ![AZ900_Lab1_23](.\media\AZ900_Lab1_23.png)
 
    
 
@@ -134,13 +134,13 @@ lab:
    >
    > 注：例としては http://11.22.33.44 などになります。
 
-   ![AZ900_Lab1_24](C:\Users\Administrator\Documents\GitHub\az-900-lab-1day\LabManual\media\AZ900_Lab1_24.BMP)
+   ![AZ900_Lab1_24](.\media\AZ900_Lab1_24.png)
 
    
 
 3. IIS のサンプルページが表示されます。
 
-   ![AZ900_Lab1_25](C:\Users\Administrator\Documents\GitHub\az-900-lab-1day\LabManual\media\AZ900_Lab1_25.BMP)
+   ![AZ900_Lab1_25](.\media\AZ900_Lab1_25.png)
 
 
 
