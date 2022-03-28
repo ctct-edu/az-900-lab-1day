@@ -11,21 +11,15 @@ lab:
 >
 > **注：Bastion 作成は約 10 分掛かります。「演習2_App Serviceの作成」の実施も指示されている場合は、Bastion設定中に平行して実施してください。**
 
-1. 仮想マシンブレードで「**接続**」を選択し「**Bastion**」を選択します。
+1. 仮想マシンブレードで「**接続**」を選択し「**Bastion**」をます。
 
     ![AZ900_Lab1_Bastion_01](./media/AZ900_Lab1_Bastion_01.png)
 
     
 
-2. 手順 2 では何も変更せずに「**サブネットの作成**」を選択します。
+2. 「**Bastionのデプロイ**」を選択します。
 
     ![AZ900_Lab1_Bastion_02](./media/AZ900_Lab1_Bastion_02.png)
-
-    
-
-3. 手順 3 では何も変更せずに「**規定値を使用して Azure Bastion を作成する**」を選択します。
-
-    ![AZ900_Lab1_Bastion_03](./media/AZ900_Lab1_Bastion_03.png)
 
     
 
