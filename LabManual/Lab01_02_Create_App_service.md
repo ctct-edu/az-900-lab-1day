@@ -15,9 +15,9 @@ lab:
 
 #### 推定時間: 10 分
 
-## 演習 1 - Azure Virtual Machine から「仮想マシン」を作成
+## 演習 1 - Azure App Service から「Webアプリ」を作成
 
-### タスク 1 - 仮想マシンを作成する
+### タスク 1 - Webアプリを作成する
 
 1. [https://portal.azure.com](https://portal.azure.com) に講師から指示された ID とパスワードでサインインします。
 
