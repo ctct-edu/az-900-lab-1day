@@ -64,9 +64,9 @@ lab:
      | **設定**| **値**|
      | :--- | :--- |
      | 仮想マシン名 | **Server##-1** |
-     | 地域| **講師から指定されたリージョン** |
+     | 地域| **(Asia Pacific) Japan East** |
      | 可用性オプション | **インフラストラクチャ冗長は必要ありません** |
-     | イメージ | **Windows Server 2019 Datacenter - Gen2** |
+     | イメージ | **Windows Server 2022 Datacenter: Azure Edition - Gen2** |
      | Azure スポット インスタンス | **チェックなし** |
      | サイズ | **Standard_DS1_V2** |
 

@@ -17,7 +17,7 @@ lab:
 
     
 
-2. 「**Bastionのデプロイ**」を選択します。
+2. 「**規定値を使用してAzure Bastionを作成する**」を選択します。
 
     ![AZ900_Lab1_Bastion_02](./media/AZ900_Lab1_Bastion_02.png)
 
@@ -31,9 +31,9 @@ lab:
     
     
     
-5. 作成完了の通知を確認し、もう一度 Bastion の画面に移動します。
+5. 作成完了の通知を確認し、通知を閉じてBastion の画面に移動します。
 
-    ![AZ900_Lab1_Bastion_05](./media/AZ900_Lab1_Bastion_05.png)
+    ![AZ900_Lab1_Bastion_０5](./media/AZ900_Lab1_Bastion_05.png)
 
     
 
