@@ -13,11 +13,11 @@ lab:
 
 1. 仮想マシンブレードで「**接続**」クリックします。。
 
-    ![AZ900_Lab1_Bastion_01](./media/AZ900_Lab1_Bastion_01.png)
+    ![AZ900_Lab1_Bastion_01](./media/AZ900_Lab1_16.png)
 
     
 
-2. 仮想マシンの接続ブレードで「**Bastion**」のタブを選択し、**「Bastionを使用する」→「Bastionのデプロイ」**の順にクリックします。
+2. 仮想マシンの接続ブレードで「**その他の接続方法**」を展開し、**「Bastionに移動」→「Bastionのデプロイ」**の順にクリックします。
 
     ![AZ900_Lab1_Bastion_02](./media/AZ900_Lab1_Bastion_02.png)
 
