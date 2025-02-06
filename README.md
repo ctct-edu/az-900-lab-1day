@@ -4,7 +4,7 @@
 
 ## はじめに
 
-本マニュアルはCTCテクノロジー主催「[Microsoft Azure 基礎(AZ-900T01)](https://www.school.ctc-g.co.jp/course/P728.html)」のラボマニュアルになります。
+本マニュアルはCTCテクノロジー主催「[Microsoft Azure 基礎(AZ-900)](https://www.school.ctc-g.co.jp/course/P728.html)」のラボマニュアルになります。
 
 2日コースのラボマニュアルではありません。ご注意ください。
 
