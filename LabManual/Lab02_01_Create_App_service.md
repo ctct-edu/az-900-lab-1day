@@ -153,7 +153,7 @@ lab:
 
 2. サンプルのページが表示されます。
 
-![AZ900_Lab2_17](./media/AZ900_Lab2_17.BMP)
+![AZ900_Lab2_17](./media/AZ900_Lab2_18.BMP)
 
 これでApp Serivceを使い、Webページを公開することが出来ました。
 
