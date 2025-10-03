@@ -11,7 +11,7 @@ lab:
 
 あなたの会社では、Azure上で新規にWebサーバーを構築する予定です。Azure Virtual Machine のサービスを使い、Windows の仮想マシンを Azure 上に構築します。構築した仮想マシンにサインインし、[Internet Information Services (IIS)](https://docs.microsoft.com/ja-jp/iis/get-started/introduction-to-iis/introduction-to-iis-architecture)を設定し、Webページを公開します。
 
-
+　
 
 #### 推定時間: 20 分
 
@@ -48,7 +48,7 @@ lab:
 
      | 設定               | 値                                    |
      | ------------------ | ------------------------------------- |
-     | サブスクリプション | **Microsoft Azure スポンサー プラン** |
+     | サブスクリプション | **従量課金** |
      | リソースグループ   | **AzureStudent##**                    |
 
      > 注：##は受講番号です。01 ～ 99の数字が入ります。
