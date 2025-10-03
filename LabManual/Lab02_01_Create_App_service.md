@@ -136,7 +136,7 @@ lab:
 
    | 設定       | 値                                                    |
    | ---------- | ----------------------------------------------------- |
-   | リポジトリ | **https://github.com/ctct-edu/ctc-travel-agency.git** |
+   | リポジトリ | **https://github.com/ctct-edu/travel-agency.git** |
    | ブランチ   | **main**                                              |
 
    ![AZ900_Lab2_13](./media/AZ900_Lab2_13.png)
