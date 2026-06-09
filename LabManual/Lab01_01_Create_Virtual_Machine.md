@@ -169,7 +169,7 @@ lab:
 
 > 注：Bastion 接続を行う場合は、[Lab01-02_Access_Virtual_Machine_Bastion](https://github.com/ctct-edu/az-900-lab-1day/blob/main/LabManual/Lab01_02_Access_Virtual_Machine_Bastion.md)へアクセスして実施してください。
 
-1. 仮想マシンブレードで「**接続**」をクリックし、仮想マシンの接続ブレードに移動します。
+1. 仮想マシンブレードで「**接続**」 ボタン内の[接続]をクリックし、仮想マシンの接続ブレードに移動します。
 
    ![AZ900_Lab1_16](./media/AZ900_Lab1_16.png)
 
@@ -191,7 +191,7 @@ lab:
 
    
 
-4. Windows Server のデスクトップ画面が表示されます。初期設定で以下の項目が表示されます。「NO」を選択します。
+4. 初期設定に関するウィザードが表示されて、 **[accept]** を選択するとWindows Server のデスクトップ画面が表示されます。初期設定で以下の項目が表示されます。「NO」を選択します。
 
    > 注：この設定は演習には影響しません。
 
