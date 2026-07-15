@@ -87,7 +87,6 @@ lab:
      | ユーザー名 | **admsv**           |
      | パスワード | **Pa55w.rdabc1234** |
 
-     ![AZ900_Lab1_06](./media/AZ900_Lab1_06.png)
 
      
 
