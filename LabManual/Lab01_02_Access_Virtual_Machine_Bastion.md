@@ -18,7 +18,7 @@ lab:
     >
     > 次の手順にあるユーザー名パスワードを入力してから画面下部の「 **Bastionのデプロイ** 」ボタンをクリックしてください。
     >
-    > ![AZ900_Lab1_Bastion_01](./media/AZ900_Lab1_16_02b.png)
+    > <img src="./media/AZ900_Lab1_16_02b.png" alt="AZ900_Lab1_Bastion_01" style="zoom: 50%;" />
 
     
 
